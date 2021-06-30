@@ -53,6 +53,6 @@ list.forEach(v => {
   }
 });
 
-console.log(totalCoin);
+console.log(`总币数：${totalCoin}`);
 
-console.log(totalCost / totalCoin);
+console.log(`最新成本：${totalCost / totalCoin}`);
