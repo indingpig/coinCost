@@ -1,6 +1,6 @@
 const XLSX = require('xlsx');
 
-const workBook = XLSX.readFile('./TransactionHistory-20210525.xlsx');
+const workBook = XLSX.readFile('./所有成交记录.xlsx');
 
 const sheet = workBook.SheetNames;
 
